@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enerji Uzmanım — Gizlilik Politikası</title>
+<meta name="description" content="Enerji Uzmanım uygulamasının gizlilik politikası.">
+<style>
+  :root {
+    --yesil: #2E7D32;
+    --metin: #1C1C1E;
+    --soluk: #6C6C70;
+    --zemin: #F2F2F7;
+    --yuzey: #FFFFFF;
+    --cizgi: #D1D1D6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --metin: #F2F2F7; --soluk: #9A9AA0; --zemin: #000000;
+      --yuzey: #1C1C1E; --cizgi: #38383A; --yesil: #5BBF61;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 20px 72px;
+    background: var(--zemin); color: var(--metin);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 680px; margin: 0 auto; padding: 32px 28px;
+    background: var(--yuzey); border: 0.5px solid var(--cizgi);
+    border-radius: 14px;
+  }
+  h1 {
+    font-size: 30px; font-weight: 700; letter-spacing: -0.6px;
+    margin: 0 0 24px; line-height: 1.2;
+  }
+  h2 {
+    font-size: 21px; font-weight: 600; letter-spacing: -0.3px;
+    margin: 36px 0 10px; padding-top: 18px;
+    border-top: 0.5px solid var(--cizgi);
+  }
+  h1 + p { color: var(--soluk); font-size: 15px; }
+  p, li { letter-spacing: -0.1px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--yesil); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { font-weight: 600; }
+  footer {
+    max-width: 680px; margin: 20px auto 0;
+    color: var(--soluk); font-size: 13px; text-align: center;
+  }
+  @media (max-width: 520px) {
+    body { padding: 16px 12px 48px; }
+    main { padding: 24px 18px; border-radius: 12px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Enerji Uzmanım — Gizlilik Politikası</h1>
+  <p><strong>Son güncelleme:</strong> 18 Kasım 2026</p>
+  <p>Enerji Uzmanım, enerji yöneticisi ve etüt-proje sertifika sınavlarına hazırlık için geliştirilmiş bir çalışma uygulamasıdır. Bu politika, uygulamayı kullandığınızda hangi verilerin işlendiğini açıklar.</p>
+  <h2>Özet</h2>
+  <p>Uygulamayı kullanmak için hesap açmanız gerekmez. Adınız, e-posta adresiniz, telefon numaranız gibi kimlik bilgileriniz istenmez. Çalışma verileriniz cihazınızda kalır. Uygulama reklam göstermez ve üçüncü taraf analiz veya izleme aracı kullanmaz.</p>
+  <h2>Cihazınızda kalan veriler</h2>
+  <p>Aşağıdaki veriler yalnızca cihazınızdaki yerel veritabanında saklanır ve tarafımıza <strong>gönderilmez</strong>:</p>
+  <ul>
+  <li>Çözdüğünüz sorular ve verdiğiniz cevaplar</li>
+  <li>Doğru/yanlış sayıları, başarı oranları, çalışma serisi ve tüm istatistikler</li>
+  <li>Deneme sınavı sonuçlarınız ve sınav geçmişiniz</li>
+  <li>İşaretlediğiniz favoriler ve yazdığınız kişisel notlar</li>
+  <li>Tekrar planı (aralıklı tekrar) durumunuz</li>
+  <li>Seçtiğiniz sertifika, tema, dil ve hatırlatma ayarları</li>
+  </ul>
+  <p>Uygulamayı cihazınızdan kaldırdığınızda bu veriler silinir.</p>
+  <h2>Cihaz kimliği</h2>
+  <p>Uygulama ilk açılışta cihazınızda rastgele bir kimlik (UUID) oluşturur. Bu kimlik:</p>
+  <ul>
+  <li>Rastgeledir; adınız, e-posta adresiniz, telefon numaranız veya cihazınızın donanım kimliğiyle ilişkili <strong>değildir</strong></li>
+  <li>Reklam kimliği <strong>değildir</strong> ve reklam amacıyla kullanılmaz</li>
+  <li>Yalnızca gönderdiğiniz soru önerisi veya hata bildirimini takip edebilmek, aynı içeriğin tekrar gönderilmesini engellemek ve kötüye kullanımı sınırlamak için kullanılır</li>
+  </ul>
+  <h2>Tarafımıza ulaşan veriler</h2>
+  <p>Veri yalnızca <strong>siz bir gönderim yaptığınızda</strong> tarafımıza ulaşır:</p>
+  <p><strong>Soru önerisi gönderdiğinizde:</strong> yazdığınız soru metni, şıklar, doğru cevap, açıklama, seçtiğiniz konu ve sertifika bilgisi ile cihaz kimliğiniz.</p>
+  <p><strong>Hata bildirimi gönderdiğinizde:</strong> ilgili sorunun kimliği, seçtiğiniz hata türü, yazdığınız açıklama ve cihaz kimliğiniz.</p>
+  <p><strong>E-posta ile iletişime geçtiğinizde:</strong> uygulama cihazınızdaki e-posta uygulamasını hazır bir mesajla açar. Mesajı siz gönderirsiniz; bu durumda e-posta adresiniz tarafımıza ulaşır.</p>
+  <p><strong>Hata bildirimine ekran görüntüsü eklediğinizde:</strong> seçtiğiniz görseller cihazınızın paylaşım menüsü aracılığıyla, sizin onayınızla gönderilir. Uygulama galerinizi taramaz ve seçmediğiniz hiçbir görsele erişmez.</p>
+  <p>Bu gönderimlerin hepsi isteğe bağlıdır. Hiç gönderim yapmazsanız tarafımıza hiçbir veri ulaşmaz.</p>
+  <h2>Verilerin saklanması ve işlenmesi</h2>
+  <p>Gönderdiğiniz soru önerileri ve hata bildirimleri, altyapı hizmeti sağlayıcımız Supabase üzerinde barındırılan bir veritabanında saklanır. Bu veriler yalnızca içeriğin değerlendirilmesi ve uygulamanın iyileştirilmesi için kullanılır. Üçüncü taraflara satılmaz, reklam amacıyla paylaşılmaz.</p>
+  <h2>İnternet bağlantısı</h2>
+  <p>Uygulama çevrimdışı çalışacak şekilde tasarlanmıştır. İnternet bağlantısı yalnızca şu durumlarda kullanılır:</p>
+  <ul>
+  <li>Soru içeriğinin güncellenmesi</li>
+  <li>Soru önerisi veya hata bildirimi gönderilmesi</li>
+  <li>Konu kaynaklarındaki harici bağlantıların (örneğin kamu kurumlarının yayınladığı eğitim dokümanları) açılması</li>
+  </ul>
+  <h2>Bildirimler</h2>
+  <p>Çalışma hatırlatıcısını açarsanız uygulama cihazınızda yerel bildirim planlar. Bu bildirimler tamamen cihazınızda üretilir; sunucudan gönderilmez ve bu amaçla hiçbir veri tarafımıza iletilmez.</p>
+  <h2>Çocukların gizliliği</h2>
+  <p>Uygulama mesleki sertifika sınavlarına hazırlanan yetişkinlere yöneliktir. Çocuklardan bilerek veri toplanmaz.</p>
+  <h2>Haklarınız</h2>
+  <p>Cihazınızdaki verileri uygulama ayarlarından veya uygulamayı kaldırarak silebilirsiniz. Gönderdiğiniz bir soru önerisinin veya hata bildiriminin silinmesini istiyorsanız aşağıdaki adresten bize ulaşın; talebinizi karşılayabilmemiz için gönderim sırasında kullanılan cihaz kimliğini belirtmeniz gerekebilir.</p>
+  <h2>Değişiklikler</h2>
+  <p>Bu politika güncellenirse bu sayfadaki "Son güncelleme" tarihi değişir. Önemli değişiklikler uygulama içinde duyurulur.</p>
+  <h2>İletişim</h2>
+  <p>Gizlilik politikası, veri silme talepleri ve diğer sorularınız için:</p>
+  <p><strong><a href="mailto:firsattayfa@gmail.com">firsattayfa@gmail.com</a></strong></p>
+  <p>Bu adres uygulama içindeki "Geri bildirim" ve "Hata bildir" akışlarının gönderdiği adresle aynıdır.</p>
+</main>
+<footer>Enerji Uzmanım · com.enerjiuzmanim.app</footer>
+</body>
+</html>
